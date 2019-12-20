@@ -1,0 +1,90 @@
+.container__form-feedback
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 10
+  display: none
+.form-feedback
+  display: flex
+  flex-direction: column
+  background-color: #fff
+  padding: 26px 26px 26px 26px
+  background: #FFFFFF
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2)
+  border-radius: 10px
+.form-feedback__subtitle
+  font-family: Gilroy
+  font-size: 18px
+  line-height: 20px
+  letter-spacing: 0.04em
+  color: #1F3F68
+  margin: 0
+  margin-bottom: 28px
+.form-feedback__label
+  font-family: Gilroy
+  font-size: 16px
+  line-height: 20px
+  letter-spacing: 0.04em
+  color: #1F3F68
+  opacity: 0.8
+  margin-bottom: 15px
+.form-feedback__input
+  width: 322px
+  padding: 11px 22px 11px 11px
+  font-family: Gilroy
+  font-size: 16px
+  line-height: 30px
+  letter-spacing: 0.04em
+  color: #000
+  opacity: 0.6
+  margin-bottom: 32px
+  border: 1px solid #356EAD
+  box-sizing: border-box
+  border-radius: 10px
+.form-feedback__input::placeholder
+  color: #1F3F68
+  opacity: 0.2
+.form-feedback__input--invalid
+  background-color: #e05555
+.form-feedback__textarea
+  height: 143px
+  overflow: auto
+  resize: none
+  margin-bottom: 30px
+.form-feedback__button
+  padding: 13px 100px 13px 100px
+  background: #5A98D0
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2)
+  border-radius: 10px
+  font-family: Gilroy
+  font-size: 16px
+  line-height: 26px
+  text-align: center
+  letter-spacing: 0.04em
+  color: #FFFFFF
+.container__form-feedback--active
+  display: block
+.error
+  position: absolute
+  width: 150px
+  text-align: center
+  margin-top: 40px
+  margin-left: 200px
+  color: #ac2d2d
+.successfulSending
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 10
+  background-color: #62cf62
+  padding: 20px 30px 20px 30px
+  font-size: 22px
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2)
+  border-radius: 10px
+  font-family: Gilroy
+  color: #1F3F68
+  display: none
+.successfulSending--active
+  display: block
